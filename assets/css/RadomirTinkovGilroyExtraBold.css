@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RadomirTinkovGilroyExtraBold';
+    src: url('fonts/RadomirTinkovGilroyExtraBold.eot');
+    src: url('fonts/RadomirTinkovGilroyExtraBold.eot') format('embedded-opentype'),
+         url('fonts/RadomirTinkovGilroyExtraBold.woff2') format('woff2'),
+         url('fonts/RadomirTinkovGilroyExtraBold.woff') format('woff'),
+         url('fonts/RadomirTinkovGilroyExtraBold.ttf') format('truetype'),
+         url('fonts/RadomirTinkovGilroyExtraBold.svg#RadomirTinkovGilroyExtraBold') format('svg');
+}

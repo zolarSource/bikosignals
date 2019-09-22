@@ -1,0 +1,119 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+// Table of Contents
+
+// 1. Header
+// 2. Predictions 
+// 3. Footer
+
+// Header
+.header{
+    background: url('https://i.ibb.co/tYFP6ky/bg-header.png')!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    &__logo{
+        width: 200px;
+        height: 80px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    &__content{
+        background: url('https://i.ibb.co/KyNF8LB/bg-header2.png')!important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+        transform: translateY(20px);
+    
+        h1{
+            color: #ffffff;
+            font-weight: 700;
+            text-align: center;
+            line-height: 45px;
+        }
+    }
+}
+
+// Predictions
+.predictions{
+    background-color: #fff;
+
+   &__content{
+        background: url('https://i.ibb.co/SXrvHPx/predictions-bg.png')!important;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-top: 50px;
+
+        &__item{
+            background-color: #fff;
+            padding: 0 40px;
+
+            p{
+                margin: 0;
+                color: #000000;
+                font-size: 25px;
+                font-weight: 400;
+
+                span{
+                    font-weight: 700;
+                }
+            }
+        }
+   }
+}
+
+// Footer
+.footer{
+    &__text{
+        p{
+            font-size: 21px;
+            font-weight: 700;
+        }
+
+        span{
+            color: #fff;
+            background-color: #1D1C36;
+        }
+    }
+
+    &__btn{
+        th{
+            text-align: center;
+        }
+
+       a{
+            display: inline-block;
+            width: 200px;
+            height: 40px;
+            background: linear-gradient(120deg, #663ec9, #2ecc71)!important;
+            color: #fff;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 20px;
+            font-size: 21px;
+            font-weight: 600;
+       }
+    }
+
+    &__social{
+        th{
+            text-align: center;
+        }
+        
+        img{
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
+            max-width: none!important;
+        }
+    }
+}
+
+@import 'media';

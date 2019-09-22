@@ -1,0 +1,405 @@
+/* Extra extra small devices (portrait phones, less than 426px) */
+@media (max-width: 426px) {
+    /*========== Start Header ==========*/
+    .info-header h1{
+        font-size: 21px;
+        line-height: 25px;
+    }
+} 
+
+
+/* Extra extra small devices (portrait phones, less than 426px) */
+@media (max-width: 426px) {
+    /*========== Start Header ==========*/
+    .info-header h1{
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    /*========== Start Help ==========*/
+    .help__offer p{
+        font-size: 19px!important;
+    }
+} 
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/*========== Start Navbar ==========*/   
+.navbar-light .navbar-brand .logo-1 {
+    width: 192px;
+    padding-left: 15px;
+}
+.navbar-brand img{
+    transform: translateY(25px);
+}
+.navbar-light .navbar-toggler-icon,
+.navbar-light .navbar-toggler-icon.active ,
+.nav-fixed .navbar-toggler-icon,
+.nav-fixed .navbar-toggler-icon.active {
+    
+    background: #3396ec !important;
+}
+.fixed-top .navbar-nav .active>.nav-link,
+.fixed-top  .navbar-nav .nav-link.active,
+.fixed-top .navbar-nav .nav-link.show,
+.fixed-top  .navbar-nav .show>.nav-link
+{
+    color: #3396ec !important;
+}
+
+.fixed-top  .navbar-nav .active>.nav-link:before,
+.fixed-top  .navbar-nav .nav-link.active:before,
+.fixed-top  .navbar-nav .nav-link.show:before,
+.fixed-top  .navbar-nav .show>.nav-link:before {
+    opacity: 0;  
+}
+.nav-fixed .navbar-nav .active>.nav-link:before,
+.nav-fixed .navbar-nav .nav-link.active:before,
+.nav-fixed .navbar-nav .nav-link.show:before,
+.nav-fixed .navbar-nav .show>.nav-link:before {
+    opacity: 0;
+}
+    
+.navbar-light .navbar-collapse {
+    background: #FFF;
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #444;
+    margin: 0;  
+    padding: 0 0 15px 0;
+} 
+.social-media-nav {
+    padding: 10px 0;
+    padding-left: 0;
+}
+    .navbar-light  .social-media-nav li {
+        padding-right: 10px;
+        padding-left: 0
+    }
+.navbar-light  .social-media-nav li svg{
+    color: #555;
+}
+.nav-fixed .social-media-nav li:first-of-type:before {
+    background: #FFF;
+}
+.card{
+    margin:0;
+}
+.mt-2, .my-2 {
+    margin-top: 2.5rem!important;
+}
+/* .navbar-brand img {
+    width: 100px;
+    padding-left: 15px;
+} */
+nav {
+    padding-top: 0px;
+    margin-bottom: -50px;
+}
+.block_none_m{
+    display: none
+}
+.h2_fonts {
+    font-family: 'AsapRegular_0', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 35px!important;
+    max-width: 764px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.plr-50 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.info-header {
+    height: 75vh;
+    min-height: 100%;
+    padding-top: 25px;
+}
+/*========== Start Header ==========*/    
+.info-header h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    line-height: 37px;
+}
+.info-header h1 span {
+    margin-top: 10px;
+}
+.banner-meta {
+    margin-bottom: 30px;
+}
+.banner-meta li {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.banner-meta li:first-of-type::before {
+    display: none;
+}
+.banner-meta li::before {
+    display: none;
+}
+/*========== Start Help ==========*/
+.help__offer p{
+    font-size: 29px;
+}
+/*========== Start About ==========*/
+.section-title h3,
+.section-title-left h3 {
+    font-size: 28px;
+
+}
+.section-title h2,
+.section-title-left h2 {
+    font-size: 18px;
+}
+.info-about {
+    padding-top: 0;
+}
+.info-about p {
+    padding-right: 0;
+}
+.about-img {
+    margin-right: 0;  
+}
+    .feat-meta {
+        margin-left: 0;
+    }
+.scroll-up {
+    bottom: 90px;
+    right: 10px;
+}
+}
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*========== Start Navbar ==========*/   
+    .navbar-light .navbar-brand .logo-2 {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: -24px;
+    }
+    /* .navbar-brand img {
+        width: 90px!important;
+    } */
+    .navbar-light .navbar-toggler-icon,
+    .navbar-light .navbar-toggler-icon.active ,
+    .nav-fixed .navbar-toggler-icon,
+    .nav-fixed .navbar-toggler-icon.active {
+        
+        background: #3396ec !important;
+    }
+    .fixed-top .navbar-nav .active>.nav-link,
+    .fixed-top  .navbar-nav .nav-link.active,
+    .fixed-top .navbar-nav .nav-link.show,
+    .fixed-top  .navbar-nav .show>.nav-link
+    {
+        color: #3396ec !important;
+    }
+
+    .fixed-top  .navbar-nav .active>.nav-link:before,
+    .fixed-top  .navbar-nav .nav-link.active:before,
+    .fixed-top  .navbar-nav .nav-link.show:before,
+    .fixed-top  .navbar-nav .show>.nav-link:before {
+        opacity: 0;  
+    }
+    .nav-fixed .navbar-nav .active>.nav-link:before,
+    .nav-fixed .navbar-nav .nav-link.active:before,
+    .nav-fixed .navbar-nav .nav-link.show:before,
+    .nav-fixed .navbar-nav .show>.nav-link:before {
+        opacity: 0;
+    }
+        
+    .navbar-light .navbar-collapse {
+        background: #FFF;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        color: #444;
+        margin: 0;  
+        padding: 0 0 15px 0;
+    } 
+    .social-media-nav {
+        padding: 10px 0;
+        padding-left: 0;
+    }
+        .navbar-light  .social-media-nav li {
+            padding-right: 10px;
+            padding-left: 0
+        }
+    .navbar-light  .social-media-nav li svg{
+        color: #232323;
+    }
+    .nav-fixed .social-media-nav li:first-of-type:before {
+        background: #FFF;
+    }
+    /*========== Start Header ==========*/    
+    .info-header h1 {
+        font-size: 45px;
+    }
+    /*========== Start About ==========*/
+    .section-title h3,
+    .section-title-left h3 {
+        font-size: 35px;
+
+    }
+    .section-title h2,
+    .section-title-left h2 {
+        font-size: 18px;
+    }
+    .info-about {
+        padding-top: 0;
+    }
+    .info-about p {
+        padding-right: 0;
+    }
+    .scroll-up {
+        bottom: 90px;
+        right: 10px;
+    }
+}
+
+/*  Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*========== Start Navbar ==========*/   
+.navbar-light .navbar-brand .logo-2 {
+display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -24px;
+}
+/* .navbar-brand img {
+    width: 90px;
+} */
+.navbar-light .navbar-toggler-icon,
+.navbar-light .navbar-toggler-icon.active ,
+.nav-fixed .navbar-toggler-icon,
+.nav-fixed .navbar-toggler-icon.active {
+    
+    background: #3396ec !important;
+}
+.fixed-top .navbar-nav .active>.nav-link,
+.fixed-top  .navbar-nav .nav-link.active,
+.fixed-top .navbar-nav .nav-link.show,
+.fixed-top  .navbar-nav .show>.nav-link
+{
+    color: #3396ec !important;
+}
+
+.fixed-top  .navbar-nav .active>.nav-link:before,
+.fixed-top  .navbar-nav .nav-link.active:before,
+.fixed-top  .navbar-nav .nav-link.show:before,
+.fixed-top  .navbar-nav .show>.nav-link:before {
+    opacity: 0;  
+}
+.nav-fixed .navbar-nav .active>.nav-link:before,
+.nav-fixed .navbar-nav .nav-link.active:before,
+.nav-fixed .navbar-nav .nav-link.show:before,
+.nav-fixed .navbar-nav .show>.nav-link:before {
+    opacity: 0;
+}
+    
+.navbar-light .navbar-collapse {
+    background: #FFF;
+}
+.navbar-light .navbar-nav .nav-item .nav-link {
+    color: #444;
+    margin: 0;  
+    padding: 0 0 15px 0;
+} 
+.social-media-nav {
+    padding: 10px 0;
+    padding-left: 0;
+}
+    .navbar-light  .social-media-nav li {
+        padding-right: 10px;
+        padding-left: 0
+    }
+.navbar-light  .social-media-nav li svg{
+    color: #555;
+}
+.nav-fixed .social-media-nav li:first-of-type:before {
+    background: #FFF;
+}
+/*========== Start Header ==========*/    
+.info-header h1 {
+    font-size: 35px;
+    line-height: 33px;
+}
+.info-header h1 span {
+    font-size: 45px;
+}
+
+.section-title p {
+    padding-right: 0;
+    padding-left: 0;
+}
+/*========== Start About ==========*/
+
+.section-title h3,
+.section-title-left h3 {
+    font-size: 40px;
+
+}
+.section-title h2,
+.section-title-left h2 {
+    font-size: 18px;
+}
+.info-about {
+    padding-top: 0;
+}
+.info-about p {
+    padding-right: 0;
+}
+
+.feat-meta {
+    margin-left: 0;
+}
+.feat-meta {
+    margin-left: 0;
+    width: 100%;
+}
+.box-img img {
+    border-radius: 8px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: block;
+    width: 100%;
+}
+.about-img {
+    margin-right: 0;
+    width: 100%;
+}
+    .social-media li a {
+        margin-bottom: 5px;
+    }
+.scroll-up {
+    bottom: 90px;
+    right: 10px;
+}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media screen and (max-width: 767px) { 
+    /*========== Start Header ==========*/
+    .info-header h1 {
+        font-size: 33px;
+        line-height: 35px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media screen and (max-width: 992px) { 
+    /*========== Start Options ==========*/
+    .options__list__item-icon{
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width: 580px){
+    .header__content h1{
+        line-height: 39px!important;
+        font-size: 28px!important;
+        max-width: 481px;
+    }
+}
+
+@media screen and (max-width: 412px){
+    .header__content h1{
+        line-height: 31px!important;
+        font-size: 22px!important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .predictions__content__item p{
+        font-size: 20px;
+    }
+}
+
+// @media screen and (max-width: 320px){
+//     &__social{
+//         img{
+            
+//         }
+//     }
+// }

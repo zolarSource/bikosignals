@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Standart</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="//api.fondy.eu/static_common/v1/checkout/ipsp.js"></script>
+</head>
+<body>
+<div id="checkout"></div>
+<script>
+    var button = $ipsp.get("button");
+    button.setHost("api.fondy.eu");
+    button.setProtocol("https");
+    button.setMerchantId(1414963);
+    button.setAmount("149","USD",false);
+    button.setResponseUrl("{response_url}");
+    button.addParam("lang","en");
+    button.addParam("order_desc","Signals");
+    var url = button.getUrl();
+    $ipsp("checkout").config({
+        "wrapper": "#checkout",
+        "styles": {
+            "body": {
+                "overflow": "hidden"
+            }
+        }
+    }).scope(function () {
+        this.width("100%");
+        this.height(480);
+        this.action("resize", function (data) {
+            this.setCheckoutHeight(data.height);
+        })
+        this.loadUrl(url);
+    });
+</script>
+</body>
+</html>
